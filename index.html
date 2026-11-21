@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café de Origen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor header__contenido">
+            <a href="#inicio" class="logo">Cafe de Origen</a>
+
+            <nav>
+                <ul class="nav__lista">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="viajes.html" class="nav__destacado">Viaja Colombia</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="contenedor hero__contenido">
+                <div class="hero__texto">
+                    <h1>El cafe de las montañas de Colombia</h1>
+                    <p>tostamos granos de pequeños productores</p>
+                    <a href="#productos" class="boton">Ver productos</a>
+                </div>
+
+                <img class="hero__imagen"
+                    src="data:image/webp;base64,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"
+                    alt="Taza de café recién servida">
+            </div>
+        </section>
+
+        <section class="productos" id="productos">
+            <div class="contenedor">
+                <h2>Nuestros cafés</h2>
+
+                <div class="tarjetas">
+                    <article class="tarjeta">
+                        <img src="data:image/webp;base64,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" alt="Café del Huila">
+                        <div class="tarjeta__cuerpo">
+                            <h3>huila</h3>
+                            <p>Notas a panela y frutos rojos</p>
+                            <span class="precio">$32.000 · 500 g</span>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="https://th.bing.com/th/id/OIP.yeYNwUBRotuY1V338NID8AHaE8?w=207&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Café de Nariño">
+                        <div class="tarjeta__cuerpo">
+                            <h3>nariño</h3>
+                            <p>Cultivado a más de 2.000 m. Dulce y floral.</p>
+                            <span class="precio">$35.000 · 500 g</span>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="https://th.bing.com/th/id/OIP.L7nShJ1VpHfe5Udle8VrfQHaEK?w=304&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Café del Eje Cafetero">
+                        <div class="tarjeta__cuerpo">
+                            <h3>eje Cafetero</h3>
+                            <p>el clásico colombiano: cuerpo medio y notas a chocolate.</p>
+                            <span class="precio">$29.000 · 500 g</span>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="https://th.bing.com/th/id/OIP.lUrsNiGlseLSwrdE6-yzCQHaHa?w=156&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Café de la Sierra Nevada">
+                        <div class="tarjeta__cuerpo">
+                            <h3>sierra Nevada</h3>
+                            <p>cultivo orgánico. Notas a nuez y caramelo.</p>
+                            <span class="precio">$34.000 · 500 g</span>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="https://th.bing.com/th/id/OIP.rf_nMhN2g4XKXeWlqvFWrgHaHa?w=142&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Café del Tolima">
+                        <div class="tarjeta__cuerpo">
+                            <h3>tolima</h3>
+                            <p>equilibrado, con notas cítricas y final largo.</p>
+                            <span class="precio">$31.000 · 500 g</span>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="https://th.bing.com/th/id/OIP.oDpvS7VPedwPITPugASx2AHaEj?w=208&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Café de Santander">
+                        <div class="tarjeta__cuerpo">
+                            <h3>santander</h3>
+                            <p>bajo sombra. Suave, ideal para empezar el día.</p>
+                            <span class="precio">$30.000 · 500 g</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <div class="contenedor">
+                <h2>Visítanos</h2>
+
+                <div class="contacto__grid">
+                    <div class="contacto__bloque">
+                        <h3>Dirección</h3>
+                        <p>Calle 85 # 12-34, Bogotá</p>
+                    </div>
+
+                    <div class="contacto__bloque">
+                        <h3>Horario</h3>
+                        <p>Lunes a sábado, 7:00 a. m. – 8:00 p. m.</p>
+                    </div>
+
+                    <div class="contacto__bloque">
+                        <h3>Pedidos</h3>
+                        <p>WhatsApp 300 000 0000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Café de Origen · Hecho con mobile first</p>
+    </footer>
+
+</body>
+</html>
